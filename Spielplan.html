@@ -1,0 +1,740 @@
+<!-- Verwendete Frameworks / Skripte:
+      Bootstrap v4.0.0
+      Bootstrap font-awesome 4.7.0
+      Jquery v. 3.3.1
+      Entwicklungsumgebung: Atom 1.25.1 x64
+ -->
+
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>Spielplan - Theater im Parkett</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS ------->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <!-- Fonts --------------->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700|Roboto:100i,300,300i,400,500,700" rel="stylesheet">
+  </head>
+
+  <body id="home bootstrap-overrides" data-spy="scroll" data-target=".navbar" data-offset="100">
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <a href="index.html">
+            <div class="logo">
+              <img src="img/Logo_charcoal.png" style="height: 60px; "alt="Theater im Parkett Logo">
+            </div>
+          </a>
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">Start</a></li>
+              <li><a href="festival.html">Festival</a></li>
+              <li><a href="#" class="active">Spielplan</a></li>
+              <li><a href="#">Tickets</a></li>
+              <li><a href="#">Über das Theater</a></li>
+              <li><a href="#">Anfahrt</a></li>
+            </ul>
+          </div>
+       </nav>
+         <div id="spielplan-header" class="jumbotron-fluid">
+          <div class="row align-items-center">
+          <div id="aktuelle-content" class="mx-auto my-auto align-items-center"></div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+<!-- spielplan head ------------------------------------------->
+
+
+    <div id="spielplan-head" class="jumbotron-fluid  mb-5" style="min-height: 100px">
+      <div class="row align-items-center">
+        <div id="aktuelle-content" class="mx-auto my-auto align-items-center">
+          <h1 id="spielplan-head-titel" class="text-center mb-3 mt-3" style="color: #f6f6f5;">Spielplan</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row col-12 pt-4 pl-0">
+        <h3 class="spielplan-monat mb-0">Oktober</h3>
+      </div>
+    </div>
+
+
+<!-- spielplan rows --------------------------------------->
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 5px solid #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Fr 5.10.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Der Besuch der alten Dame<br><h6 class="untertitel-plan">Ein Drama von Friedrich Dürrenmatt</h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class="">Das beschauliche Güllen bekommt Besuch von einer Milliardärin, die viel Geld verspricht, wenn eine im Grunde unerfüllbare Bedingung eingelöst wird. Nun beginnt es zu rumoren im Ort.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container spielplan-rows mt-3">
+      <div class="row pt-4">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Sa 6.10.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Hörst du mein heimliches Rufen<br><h6 class="untertitel-plan">Der Erstling von Thomas Jonigk</h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class="">Ein erfolgreicher Manager wird entlassen. Erst will er sich umbringen; dann fehlt ihm doch der Mut. In seiner Verzweiflung erlebt er entscheidende Stationen seines chaotischen Lebens nach.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container spielplan-rows mt-3">
+      <div class="row pt-4">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>So 7.10.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Die lustigen Weiber von Windsor<br><h6 class="untertitel-plan">Nach einer Komödie von William Shakespeare</h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class="">Im Stück erleben wir ferne Figuren aus dem 17. Jahrhundert. Doch zugleich ist uns ihr Verhalten sehr nah, so zeitlos ist das Ringen um Anerkennung, Geld, Liebe und Einfluss.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container spielplan-rows mt-3">
+      <div class="row pt-4">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Fr 12.10.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Kaltgestellt (Premiere)<br><h6 class="untertitel-plan">Eine Groteske von Michele Lowe</h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class="">Das monatliche Treffen der befreundeten Ehepaare endet diesmal unerwartet. Die Männer finden sich im Keller, in einem großen Kühlraum wieder. Und die Frauen ziehen vom Leder. </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container spielplan-rows mt-3">
+      <div class="row py-4">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6">
+              <h4>Sa 13.10.</h4>
+            </div>
+            <div class="col-6">
+              <h4>19 bis 24 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Festival Theaterfieber<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <div class="row intro-button">
+            <a href="festival.html#scroll-to"><button type="button" class="btn btn-info">Extra-Programm</button></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container spielplan-rows">
+      <div class="row pt-4">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>So 14.10.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Hörst du mein heimliches Rufen<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container spielplan-rows mt-0">
+      <div class="row pt-4">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Fr 19.10.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Der Besuch der alten Dame<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container spielplan-rows">
+      <div class="row pt-4">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Sa 20.10.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Die lustigen Weiber von Windsor<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container spielplan-rows">
+      <div class="row pt-4">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>So 21.10. </h4>
+            </div>
+            <div class="col-6">
+              <h4>11 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Der Räuber Hotzenplotz<br><h6 class="untertitel-plan">Eine Kindergeschichte von Otfried Preußler</h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class="">Eine Kaffeemühle, die Lieder spielen kann, weckt das Interesse des Räubers Hotzenplotz. Nun wird es ernst und Kasperl, Seppel, Großmutter und Wachtmeister Dimpfelmoser müssen auf der Hut sein.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container spielplan-rows">
+      <div class="row pt-4">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Fr 26.10. </h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Die lustigen Weiber von Windsor<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container spielplan-rows">
+      <div class="row pt-4">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Sa 27.10. </h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Kaltgestellt<br><h6 class="untertitel-plan">Eine Groteske von Michele Lowe</h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class="">Das monatliche Treffen der befreundeten Ehepaare endet diesmal unerwartet. Die Männer finden sich im Keller, in einem großen Kühlraum wieder. Und die Frauen ziehen vom Leder. </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container spielplan-rows mt-3">
+      <div class="row pt-4 festival-padding-bottom">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>So 28.10. </h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Der Besuch der alten Dame<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+  <!--  November ---------------------------->
+
+    <div class="container">
+      <div class="row col-12 pt-4 pl-0">
+        <h3 class="spielplan-monat mb-0">November</h3>
+      </div>
+    </div>
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 5px solid #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Fr 2.11.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Hörst du mein heimliches Rufen<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Sa 3.11. </h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Der Besuch der alten Dame<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>So 4.11. </h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Kaltgestellt<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Fr 9.11.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Der Besuch der alten Dame<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Sa 10.11.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Die lustigen Weiber von Windsor<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>So 11.11. </h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Hörst du mein heimliches Rufen<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Fr 16.11.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Kaltgestellt<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Sa 17.11.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Der Besuch der alten Dame<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>So 18.11. </h4>
+            </div>
+            <div class="col-6">
+              <h4>11 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Der kleine Häwelmann<br><h6 class="untertitel-plan">Ein Märchen nach Theodor Storm</h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class="">Der kleine Häwelmann reist mit seinem Bett in den Himmel und zu den Sternen. Und der Mond begleitet ihn.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Sa 24.11. </h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Die lustigen Weiber von Windsor<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>So 25.11.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Hörst du mein heimliches Rufen<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-2">
+      <div class="row pt-4" style="border-top: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Mi 28.11.</h4>
+            </div>
+            <div class="col-6">
+              <h4>15 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Weihnachtslesung im Foyer<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-2">
+      <div class="row pt-4 pb-2" style="border-top: 1px dotted #b49b70; border-bottom: 1px dotted #b49b70;">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6 spielplan-datum">
+              <h4>Fr 30.11.</h4>
+            </div>
+            <div class="col-6">
+              <h4>20 Uhr</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <p class="spiel-titel-plan">Der Besuch der alten Dame<br><h6 class="untertitel-plan"></h6></p>
+        </div>
+        <div class="col-md-4">
+          <p class=""></p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /container-fluid ------------------------------>
+
+
+    <div class="form-group" style="height:10vh;"></div>
+    <div id="lights-divider" class="jumbotron-fluid">
+      <div class="row align-items-center">
+        <div id="aktuelle-content" class="mx-auto my-auto align-items-center"></div>
+      </div>
+    </div>
+
+<!--  divider texture ----------------------->
+
+      <div id="divider" class="jumbotron-fluid">
+      <div class="row align-items-center">
+        <div id="aktuelle-content" class="mx-auto">
+        </div>
+      </div>
+      </div>
+
+<!-- /footer  ------------------------------->
+
+  <div>
+    <div class="row">
+        <div class="col-6 col-md-4"></div>
+        <div class="col-6 col-md-4"></div>
+        <div class="col-6 col-md-4 ">
+          <h1 class="intro-text-h1 mb-0 kontakt">Kontakt</h1>
+          <img src="img/element_b49b70.png" class="kontakt" style="width: 170px" alt="Pinselstrich gold">
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 col-md-4"></div>
+        <div class="col-6 col-md-4 mt-3"></div>
+        <div class="col-6 col-md-4 mt-3 kontakt">
+          <p>Theater im Parkett e.V.<br>Oberer Schloßgarten 6, <br>70173 Stuttgart</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <section id=footer-foto class="jumbotron-fluid">
+        <div class="row align-items-center">
+          <div id="aktuelle-content" class="mx-auto">
+          </div>
+        </div>
+      </section>
+
+      <!-- /footer  ------------------------------->
+
+      <!-- Skript für navbar. Quelle: Codepen -->
+
+        <script type="text/javascript">
+
+          // Menu-toggle button
+
+          $(document).ready(function() {
+                $(".menu-icon").on("click", function() {
+                      $("nav ul").toggleClass("showing");
+                });
+          });
+
+          // Scrolling Effect
+
+          $(window).on("scroll", function() {
+                if($(window).scrollTop()) {
+                      $('nav').addClass('black');
+                }
+
+                else {
+                      $('nav').removeClass('black');
+                }
+          })
+          </script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  </body>
+</html>

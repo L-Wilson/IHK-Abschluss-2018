@@ -1,0 +1,201 @@
+<!-- Verwendete Frameworks / Skripte:
+      Bootstrap v4.0.0
+      Bootstrap font-awesome 4.7.0
+      Jquery v. 3.3.1
+      Entwicklungsumgebung: Atom 1.25.1 x64
+ -->
+
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>Theater im Parkett</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS ------->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <!-- Fonts --------------->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700|Roboto:100i,300,300i,400,500,700" rel="stylesheet">
+  </head>
+
+
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+
+<!--  intro section ------------------------------------->
+    <div class="wrapper">
+        <header>
+          <nav>
+            <div class="menu-icon">
+              <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">
+              <img src="img/Logo_charcoal.png" alt="Theater im Parkett Logo">
+            </div>
+            <div class="menu">
+              <ul>
+                <li><a href="Start" class="active">Start</a></li>
+                <li><a href="festival.html">Festival</a></li>
+                <li><a href="Spielplan.html">Spielplan</a></li>
+                <li><a href="Tickets">Tickets</a></li>
+                <li><a href="Über das Theater">Über das Theater</a></li>
+                <li><a href="Anfahrt">Anfahrt</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <div align="center" class="embed-responsive embed-responsive-16by9">
+            <video autoplay muted loop class="embed-responsive-item">
+              <source src="img/Animation.mp4" type="video/mp4">
+            </video>
+          </div>
+        </header>
+
+<!--  intro section ---------------------------------------->
+  <div class="container-fluid intro-background">
+    <div class="container pb-5" style="padding-top: 7em;">
+
+      <div class="row align-items-center intro-rows" >
+          <div class="col-sm-12 col-lg-6">
+            <img src="img/gesang_frame.png" style="width: 100%">
+          </div>
+
+            <div class="col-sm-12 col-lg-6">
+              <div class="row intro-text">
+                <div class="col-md-10 padding-t">
+                  <h1 class="intro-text-h1 mb-0">Liebe <br>Theaterfreunde,</h1>
+                    <img src="img/element_b49b70.png" style="width: 170px" alt="Pinselstrich gold">
+                  <p class="intro-text-p mt-1">seit mehr als 50 Jahren bieten wir auf unserer Amateurbühne ein Programm für Groß und Klein. Wir spielen Klassiker – von Shakespeares „Lustigen Weibern von Windsor“ bis zu Dürrenmatts „Besuch der alten Dame“. Wir setzen uns aber auch mit Gegenwartsstücken ganz junger Autoren auseinander. Und wir bieten immer mehrere Stücke für Kinder an – besonders in der Vorweihnachtszeit. Schauen Sie sich einfach auf unserem Spielplan um!</p>
+                  <div class="row intro-button">
+                    <a href="spielplan.html"><button type="button" class="btn btn-info">Spielplan</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="row align-items-center intro-rows">
+        <div class="col-sm-12 col-lg-6 order-last">
+          <div class="row intro-text">
+            <div class="col-md-10 ">
+              <h1 class="intro-text-h1 mb-0">Highlight:</h1>
+              <img src="img/element_b49b70.png" style="width: 170px" alt="Pinselstrich gold">
+              <p class="intro-text-p mt-1">In diesem Jahr sind wir beim traditionellen Stuttgarter Festival Theaterfieber dabei. Wir freuen uns sehr, Sie am Samstag, 13. Oktober 2018 von 19 bis 24 Uhr in unseren heiligen Hallen in der Hohen Straße begrüßen zu dürfen. Freuen Sie sich auf sechs angespielte Stücke, die Sie hoffentlich animieren, wieder zu kommen und die eine oder andere Aufführung von Anfang bis Ende anzusehen.</p>
+              <div class="row intro-button">
+                <a href="festival.html"><button type="button" class="btn btn-info">Festival</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-6 order-lg-last">
+          <img src="img/kind_frame.png" style="width: 100%" alt="Zuschauer Kind">
+        </div>
+
+        </div>
+    </div>
+ </div>
+<!--  /intro section --------------------------------------->
+
+<!-- aktuelle premiere divider --------------------------->
+
+  <div id="aktuelle-divider" class="jumbotron-fluid" style="min-height: 200px">
+    <div class="row align-items-center">
+      <div id="aktuelle-content" class="mx-auto my-auto align-items-center">
+        <h1 id="speakers" class="text-center mb-3">Aktuelle Premiere</h1>
+        <p class="text-center mb-4">Am Freitag, den 12. Oktober präsentieren wir die Premiere von „Kaltgestellt“. <br>Bestellen Sie Ihr Karten schon heute.</p>
+        <div class="row">
+          <button type="button" class="btn btn-info">Tickets und Termine hier</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- /aktuelle divider ------------------------------------->
+
+<div id="lights-divider" class="jumbotron-fluid">
+  <div class="row align-items-center">
+    <div id="aktuelle-content" class="mx-auto my-auto align-items-center">
+
+    </div>
+  </div>
+</div>
+
+<!-- texture divider  -------------------------------------->
+
+<div id="divider" class="jumbotron-fluid">
+  <div class="row align-items-center">
+    <div id="aktuelle-content" class="mx-auto">
+    </div>
+  </div>
+</div>
+
+<!-- footer  ---------------------------------------------->
+<div>
+  <div class="row">
+      <div class="col-6 col-md-4"></div>
+      <div class="col-6 col-md-4"></div>
+      <div class="col-6 col-md-4 ">
+        <h1 class="intro-text-h1 mb-0 kontakt">Kontakt</h1>
+        <img src="img/element_b49b70.png" class="kontakt" style="width: 170px" alt="Pinselstrich gold">
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6 col-md-4"></div>
+      <div class="col-6 col-md-4 mt-3"></div>
+      <div class="col-6 col-md-4 mt-3 kontakt">
+        <p>Theater im Parkett e.V.<br>Oberer Schloßgarten 6, <br>70173 Stuttgart</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id=footer-foto class="jumbotron-fluid">
+  <div class="row align-items-center">
+    <div id="aktuelle-content" class="mx-auto">
+    </div>
+  </div>
+</section>
+
+<!-- /footer  ------------------------------->
+
+
+<!-- Skript für navbar. Quelle: Codepen ----->
+
+      <script type="text/javascript">
+
+        // Menu-toggle button
+
+        $(document).ready(function() {
+              $(".menu-icon").on("click", function() {
+                    $("nav ul").toggleClass("showing");
+              });
+        });
+
+        // Scrolling Effect
+
+        $(window).on("scroll", function() {
+              if($(window).scrollTop()) {
+                    $('nav').addClass('black');
+              }
+
+              else {
+                    $('nav').removeClass('black');
+              }
+        })
+
+        </script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  </body>
+</html>

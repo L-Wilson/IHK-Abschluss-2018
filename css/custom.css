@@ -1,0 +1,525 @@
+
+/* Google fonts ---------------------
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Noto Serif', serif;
+   ---------------------------------- */
+
+body {
+  background-color: rgb(246,246,245);
+  overflow-x: hidden;
+}
+
+h1,
+ #aktuelle-divider h1 {
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+p,
+#aktuelle-divider p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/* ------------ button styles  -------------- */
+
+.btn-info {
+  color: #fff;
+  background-color: #cd000d;
+  border-color: #cd000d;
+}
+
+.btn-info:hover {
+  color: #fff;
+  background-color: #cd000d;
+  border-color: #cd000d;
+}
+
+.btn-info:focus, .btn-info.focus {
+  box-shadow: #cd000d;
+}
+
+.btn-info.disabled, .btn-info:disabled {
+  color: #fff;
+  background-color: #cd000d;
+  border-color: #cd000d;
+}
+
+.btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
+.show > .btn-info.dropdown-toggle {
+  color: #fff;
+  background-color: #cd000d;
+  border-color: #cd000d;
+}
+
+.btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
+.show > .btn-info.dropdown-toggle:focus {
+  box-shadow: #cd000d;
+}
+
+.btn:focus {
+   outline: none !important;
+   background-color: darkred!important;
+   box-shadow: none;
+}
+
+.btn:active {
+   outline: none !important;
+   background-color: #cd000d!important;
+   box-shadow: none;
+}
+
+.bg-primary {
+  background-color: rgba(0, 0, 0, 0.05)!important;
+}
+
+.pt-5 {
+  padding-top: 12rem!important;
+}
+
+/* --------------- nav --------------- */
+
+header {
+  width: 100%;
+  background: url(hero.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.content {
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 16px 46px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  z-index: 3;
+}
+
+ nav .logo img {
+   height: 85px;
+   transition: .5s;
+   margin-left: -25px;
+ }
+
+ nav .logo .festival img {
+   height: 85px;
+   transition: .5s;
+   margin-left: -25px;
+ }
+
+nav ul {
+  line-height: 85px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: rgb(246,246,245);
+}
+
+nav.black img {
+  height: 60px;
+  transition: .3s;
+  margin-top: -5px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 22px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #373737;
+  font-size: .95em;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  text-decoration: none;
+  color: #b49b70;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: rgb(246,246,245);
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #b49b70;
+  display: none;
+}
+
+/*  -------------------- /nav ---------------------- */
+
+/*  -------intro section ---------------------------------- */
+
+.intro-background {
+  background-image: url(../img/texture_1.png);
+  background-size: cover;
+}
+
+.intro-background-festival {
+  background-image: url(../img/texture_1_top.png);
+  background-size: cover;
+}
+
+.intro-text {
+  padding-top: 2em;
+  padding-left: 30px;
+}
+
+.intro-text-h1 {
+  color: #373737;
+}
+
+.intro-text-p {
+  color: #373737;
+  padding-top: 9px;
+}
+
+.row .intro-button {
+  margin-left: 0;
+}
+
+/* --------- Festival header------- */
+
+#festival-header {
+  background-image: url('../img/Curtain_festival.png');
+  background-size: cover;
+  height: 400px;
+}
+
+/* --------- Aktuelle Premiere divider------- */
+
+#aktuelle-divider {
+  background-image: url('../img/vorgegeben_buehne_pro.jpg');
+  background-size: cover;
+  height: 400px;
+  color: #fff;
+}
+
+#aktuelle-divider p {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+#aktuelle-divider button {
+  font-family: 'Roboto', sans-serif;
+}
+
+#aktuelle-content {
+  padding-top:110px;
+}
+
+#aktuelle-divider button {
+  margin: auto;
+}
+
+.btn-info {
+  font-family: 'Roboto', sans-serif!important;
+  font-weight: 300;
+  color: #fff;
+  background-color: #cd000d;
+  border-color: #cd000d;
+}
+
+.btn-info:hover {
+  color: #fff;
+  background-color: darkred;
+  border-color: darkred;
+}
+
+.btn-info:visited {
+  border-color: #cd000d;
+}
+
+.btn-info:active {
+  background-color: darkred;
+}
+
+.btn-info:focus {
+  background-color: darkred;
+}
+
+/* ---------- texture divider----------------------------- */
+
+#divider {
+  background-image: url('../img/texture_1_top.png');
+  background-size: cover;
+  height: 40vh;
+  margin-bottom: -3em;
+}
+
+/*  ------ lights divider  -----------------------*/
+
+#lights-divider {
+  background-image: url('../img/Lights.png');
+  background-size: cover;
+  height: 45vh;
+}
+
+/* ---------- footer ----------------------------- */
+
+#footer-foto {
+  background-image: url('../img/Zuschauer_footer_2.png');
+  background-size: cover;
+  height: 70vh;
+}
+
+/* ------------------- festival programm --------------------*/
+
+#festival-cards h4 {
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #373737;
+}
+
+#festival-cards .untertitel {
+  font-family: 'Roboto', sans-serif;
+  font-size: .9em;
+  color: #373737;
+  margin-bottom: 1.2em;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#festival-cards .spiel-titel {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+  font-weight: 400;
+  color: #b49b70;
+  padding-top: 0.8em;
+  margin-bottom: .3em;
+  line-height: 1.1em;
+}
+
+
+/* ------------------- Spielplan --------------------*/
+
+#spielplan-header {
+  /*background-image: url('../img/Zuschauer_3.png'); */
+  background-size: cover;
+  height: 100px;
+}
+
+#spielplan-head {
+  background-image: url('../img/buehne.png');
+  background-size: cover;
+  height: 300px;
+}
+
+#spielplan-divider {
+  background-image: url('../img/texture_1_top.png');
+  background-size: cover;
+  height: 40vh;
+  margin-bottom: -3em;
+}
+
+
+.spielplan-rows {
+  border-top: 1px dotted #b49b70;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #373737;
+  margin-bottom: 0;
+}
+
+
+.untertitel-plan {
+  font-family: 'Roboto', sans-serif;
+  font-size: .9em;
+  color: #373737;
+  margin-bottom: 1.2em;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.spiel-titel {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: #b49b70;
+  margin-bottom: .3em;
+  line-height: 1.1em;
+}
+
+.spiel-titel-plan {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4em;
+  color: #b49b70;
+  margin-bottom: .3em;
+  line-height: 1.1em;
+}
+
+.spielplan-datum {
+  padding-right: 0;
+  border-right: 1px dotted #b49b70;
+}
+
+.spielplan-monat {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #b49b70;
+}
+
+.festival-padding-bottom {
+  margin-bottom: 6em;
+  border-bottom: 1px dotted #b49b70;
+}
+
+/* ------------------- Media Queries --------------------*/
+
+@media(max-width: 786px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+    }
+
+  nav .logo img {
+    height: 50px;
+    transition: .5s;
+    margin-top: -12px;
+    margin-left: -25px;
+    }
+
+  nav ul {
+    max-height: 0px;
+    background: rgba(246,246,245);
+    }
+
+  nav.black {
+    background:rgba(246,246,245);
+    height: 85px;
+    transition: .5s;
+    }
+
+  nav.black .logo img {
+    height: 50px;
+    transition: .5s;
+    margin-top: -12px;
+    margin-left: -25px;
+    }
+
+  .showing {
+    max-height: 35em;
+    margin-top: -150px;
+    }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    }
+
+  .menu-icon {
+    display: block;
+    background: rgba(0,0,0,0);
+    margin-bottom: 60px;
+    }
+  }
+
+@media(max-width: 992px) {
+  .intro-rows {
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 750px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1180px;
+  }
+}
+
+@media (max-width: 750px) {
+  .kontakt {
+    margin-left: 50px;
+  }
+  #divider {
+    margin-bottom: 10px;
+  }
+  p.text-center {
+    max-width: 80vw;
+  }
+  #aktuelle-content {
+    padding-top: 95px;
+  }
+
+  #aktuelle-content h1 {
+    font-size: 1.8em;
+  }
+
+  #aktuelle-content p {
+    font-size: 1.2em;
+  }
+
+  #spielplan-head-titel{
+    padding-top: 28px;
+  }
+
+  .spiel-titel-plan {
+    margin-top: 20px;
+  }
+  .spielplan-datum {
+    padding-right: 0;
+    border-right: none;
+  }
+
+
+}
